@@ -1,9 +1,10 @@
 import { Product, BrewMethod } from '../types/coffee';
+import HERO_IMAGE from '../assets/images/hero_coffee_bar_1791181493478.jpg';
+import POUROVER_IMAGE from '../assets/images/drink_pourover_craft_1791181508225.jpg';
+import BEANS_IMAGE from '../assets/images/product_coffee_beans_1791181525736.jpg';
+import BAKERY_IMAGE from '../assets/images/bakery_pastries_1791181537907.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_coffee_bar_1791181493478.jpg';
-export const POUROVER_IMAGE = '/src/assets/images/drink_pourover_craft_1791181508225.jpg';
-export const BEANS_IMAGE = '/src/assets/images/product_coffee_beans_1791181525736.jpg';
-export const BAKERY_IMAGE = '/src/assets/images/bakery_pastries_1791181537907.jpg';
+export { HERO_IMAGE, POUROVER_IMAGE, BEANS_IMAGE, BAKERY_IMAGE };
 
 export const PRODUCTS: Product[] = [
   // Specialty Whole Beans
